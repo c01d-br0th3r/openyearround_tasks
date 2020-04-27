@@ -1,0 +1,20 @@
+.footer__lists {
+  display: flex;
+  color: #00376b;
+  font-weight: 600;
+}
+
+.lists__list {
+  margin-right: 15px;
+}
+
+.footer__copyright {
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  opacity: 0.5;
+}
+
+.copyright__text {
+  font-weight: 700;
+}
