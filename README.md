@@ -1,2 +1,8 @@
-# openyearround_tasks
-2020 Open Year Round tasks
+# 2020 OPEN YEAR ROUND 과제 모음
+
+
+### Week 1: HTML / CSS
+
+* 인스타그램 로그인 페이지 클론
+
+*****************************************************************************
