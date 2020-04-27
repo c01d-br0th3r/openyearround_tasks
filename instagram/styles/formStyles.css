@@ -42,9 +42,9 @@
   margin-bottom: 20px;
 }
 
-.login__btn .btn {
+.login__btn {
   width: 260px;
-  height: 30px;
+  height: 33px;
   margin-bottom: 20px;
   font-size: 16px;
   font-weight: 700;
@@ -52,7 +52,7 @@
   background-color: #c0dffd;
   border: 1px solid #c0dffd;
   border-radius: 3px;
-  line-height: 30px;
+  line-height: 33px;
 }
 
 .login__or {
