@@ -1,0 +1,138 @@
+.main__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 35px;
+}
+
+.form__login {
+  border: 1px solid #cacaca;
+  border-radius: 3px;
+  padding: 25px 50px;
+  margin-bottom: 15px;
+  background-color: white;
+}
+
+.login__title {
+  width: 220px;
+  height: 70px;
+  margin-bottom: 30px;
+}
+
+.login__idpw {
+  display: flex;
+  flex-direction: column;
+}
+
+.login__idpw input {
+  width: 260px;
+  height: 40px;
+  padding: 10px;
+  margin-bottom: 5px;
+  background-color: #fafafa;
+  border: 1px solid #cacaca;
+  border-radius: 3px;
+  font-size: 12px;
+}
+
+.login__idpw input:nth-child(2) {
+  margin-bottom: 20px;
+}
+
+.login__btn .btn {
+  width: 260px;
+  height: 30px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  background-color: #c0dffd;
+  border: 1px solid #c0dffd;
+  border-radius: 3px;
+  line-height: 30px;
+}
+
+.login__or {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  opacity: 0.4;
+}
+
+.or__bar {
+  width: 106px;
+  height: 1px;
+  background-color: gray;
+}
+
+.or__text {
+  margin: 0 10px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.login__facebook-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #385185;
+}
+
+.facebook-login__text {
+  margin-left: 5px;
+  font-weight: 600;
+}
+
+.login__forgot {
+  font-size: 13px;
+  color: #385185;
+}
+
+.form__no-account {
+  border: 1px solid #cacaca;
+  border-radius: 3px;
+  background-color: white;
+  padding: 20px 92px;
+  margin-bottom: 20px;
+}
+
+.no-account__gray {
+  opacity: 0.6;
+  font-size: 15px;
+}
+
+.no-account__blue {
+  font-size: 16px;
+  font-weight: 600;
+  color: #0395f6;
+}
+
+.form__download {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.download__text {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.download__btns {
+  display: flex;
+  justify-content: center;
+}
+
+.download__btns img {
+  width: 140px;
+}
+
+.download__btns img:nth-child(2) {
+  margin-left: 10px;
+}
