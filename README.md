@@ -6,7 +6,7 @@
 * 인스타그램 로그인 페이지 클론
 
 ##### 완성!
-![instagramClone](./images/Week_1_instagram_clone.png)
+![instagramClone]("./images/Week_1_instagram_clone.png")
 
 ###### 추가할 것
 * 미디어쿼리
