@@ -1,282 +1,260 @@
 <!DOCTYPE html>
 <html>
-<head>
-   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
-   <link rel="stylesheet" href="">
+  <head>
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css"
+    />
+    <link rel="stylesheet" href="" />
     <title>Instagram</title>
     <style>
-        * {
-            padding: 0;
-            margin: 0;
-            box-sizing: border-box;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-        }
+      .main__phone {
+        width: 420px;
+        height: 640px;
+        background: url("./phoneFrame.png");
+        background-size: cover;
+      }
 
+      .phnoe__inner-img {
+      }
 
-        .container {
-            width: 100vw;
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            background-color: #fafafa;
-        }
+      .main__form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 35px;
+      }
 
-        .container__main {
-            width: 100%;
-            height: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        
-        .main__phone {
-            width: 420px;
-            height: 640px;
-            background: url("./phoneFrame.png");
-            background-size: cover;
-        }
-        
-        .phnoe__inner-img {
-            
-        }
-        
-        .main__form {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            margin-left: 35px;
-        }
-        
-        .form__login {
-            border: 1px solid #cacaca;
-            border-radius: 3px;
-            padding: 25px 50px;
-            margin-bottom: 15px;
-            background-color: white;
-        }
-        
-        .login__title {
-            width: 220px;
-            height: 70px;
-            margin-bottom: 30px;
-        }
-        
-        .login__idpw {
-            display: flex;
-            flex-direction: column;
-        }
-        
-        .login__idpw input {
-            width: 260px;
-            height: 40px;
-            padding: 10px;
-            margin-bottom: 5px;
-            background-color: #fafafa;
-            border: 1px solid #cacaca;
-            border-radius: 3px;
-            font-size: 12px;
-        }
-        
-        .login__idpw input:nth-child(2) {
-            margin-bottom: 20px;
-        }
-        
-        .login__btn .btn {
-            width: 260px;
-            height: 30px;
-            margin-bottom: 20px;
-            font-size: 16px;
-            font-weight: 700;
-            color: white;
-            background-color: #C0DFFD;
-            border: 1px solid #C0DFFD;
-            border-radius: 3px;
-            line-height: 30px;
-        }
-        
-        .login__or {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-bottom: 30px;
-            opacity: 0.4;
-        }
-        
-        .or__bar {
-            width: 106px;
-            height: 1px;
-            background-color: gray;
-        }
-        
-        .or__text {
-            margin: 0 10px;
-            font-size: 13px;
-            font-weight: 600;
-        }
-        
-        .login__facebook-login {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-bottom: 20px;
-            font-size: 14px;
-            color: #385185;
-        }
-        
-        .facebook-login__text {
-            margin-left: 5px;
-            font-weight: 600;
-        }
-        
-        .login__forgot {
-            font-size: 13px;
-            color: #385185;
-        }
-        
-        .form__no-account {
-            border: 1px solid #cacaca;
-            border-radius: 3px;
-            background-color: white;
-            padding: 20px 92px;
-            margin-bottom: 20px;
-        }
-        
-        .no-account__gray {
-            opacity: 0.6;
-            font-size: 15px;
-        }
-        
-        .no-account__blue {
-            font-size: 16px;
-            font-weight: 600;
-            color: #0395F6;
-        }
-        
-        .form__download {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        
-        .download__text {
-            font-size: 14px;
-            margin-bottom: 20px;
-        }
-        
-        .download__btns {
-            display: flex;
-            justify-content: center;
-        }
-        
-        .download__btns img {
-            width: 140px;
-        }
-        
-        .download__btns img:nth-child(2) {
-            margin-left: 10px;
-        }
-        
-        .container__footer {
-            width: 100%;
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            margin-bottom: 50px;
-            font-size: 13px;
-        }
-        
-        .footer__lists {
-            display: flex;
-            color: #00376B;
-            font-weight: 600;
-        }
-        
-        .lists__list {
-            margin-right: 15px;
-        }
-        
-        .footer__copyright {
-            text-transform: uppercase;
-            display: flex;
-            align-items: center;
-                        opacity: 0.5;
-        }
-        
-        .copyright__text {
-            font-weight: 700;
-        }
-        
+      .form__login {
+        border: 1px solid #cacaca;
+        border-radius: 3px;
+        padding: 25px 50px;
+        margin-bottom: 15px;
+        background-color: white;
+      }
+
+      .login__title {
+        width: 220px;
+        height: 70px;
+        margin-bottom: 30px;
+      }
+
+      .login__idpw {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .login__idpw input {
+        width: 260px;
+        height: 40px;
+        padding: 10px;
+        margin-bottom: 5px;
+        background-color: #fafafa;
+        border: 1px solid #cacaca;
+        border-radius: 3px;
+        font-size: 12px;
+      }
+
+      .login__idpw input:nth-child(2) {
+        margin-bottom: 20px;
+      }
+
+      .login__btn .btn {
+        width: 260px;
+        height: 30px;
+        margin-bottom: 20px;
+        font-size: 16px;
+        font-weight: 700;
+        color: white;
+        background-color: #c0dffd;
+        border: 1px solid #c0dffd;
+        border-radius: 3px;
+        line-height: 30px;
+      }
+
+      .login__or {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+        opacity: 0.4;
+      }
+
+      .or__bar {
+        width: 106px;
+        height: 1px;
+        background-color: gray;
+      }
+
+      .or__text {
+        margin: 0 10px;
+        font-size: 13px;
+        font-weight: 600;
+      }
+
+      .login__facebook-login {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        font-size: 14px;
+        color: #385185;
+      }
+
+      .facebook-login__text {
+        margin-left: 5px;
+        font-weight: 600;
+      }
+
+      .login__forgot {
+        font-size: 13px;
+        color: #385185;
+      }
+
+      .form__no-account {
+        border: 1px solid #cacaca;
+        border-radius: 3px;
+        background-color: white;
+        padding: 20px 92px;
+        margin-bottom: 20px;
+      }
+
+      .no-account__gray {
+        opacity: 0.6;
+        font-size: 15px;
+      }
+
+      .no-account__blue {
+        font-size: 16px;
+        font-weight: 600;
+        color: #0395f6;
+      }
+
+      .form__download {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .download__text {
+        font-size: 14px;
+        margin-bottom: 20px;
+      }
+
+      .download__btns {
+        display: flex;
+        justify-content: center;
+      }
+
+      .download__btns img {
+        width: 140px;
+      }
+
+      .download__btns img:nth-child(2) {
+        margin-left: 10px;
+      }
+
+      .footer__lists {
+        display: flex;
+        color: #00376b;
+        font-weight: 600;
+      }
+
+      .lists__list {
+        margin-right: 15px;
+      }
+
+      .footer__copyright {
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        opacity: 0.5;
+      }
+
+      .copyright__text {
+        font-weight: 700;
+      }
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <div class="container__main">
-            <div class="main__phone">
-                <div class="phone__frame">
-                    <div class="phone__inner-img"></div>
-                </div>
-            </div>
-            <div class="main__form">
-                <div class="form__login">
-                    <img class="login__title" src="./instagramLogo.png" alt="title">
-                    <div class="login__idpw">
-                        <input class="idpw__id" type="text" placeholder="전화번호, 사용자 이름 또는 이메일" />
-                        <input class="idpw__pw" type="password" placeholder="비밀번호" />
-                    </div>
-                    <div class="login__btn">
-                        <button class="btn">로그인</button>
-                    </div>
-                    <div class="login__or">
-                        <div class="or__bar"></div>
-                        <div class="or__text">또는</div>
-                        <div class="or__bar"></div>
-                    </div>
-                    <div class="login__facebook-login">
-                        <i class="xi-facebook-official xi-2x"></i>
-                        <div class="facebook-login__text">Facebook으로 로그인</div>
-                    </div>
-                    <div class="login__forgot">
-                        비밀번호를 잊으셨나요?
-                    </div>
-                </div>
-                <div class="form__no-account">
-                    <span class="no-account__gray">계정이 없으신가요?</span>
-                    <span class="no-account__blue">가입하기</span>
-                </div>
-                <div class="form__download">
-                    <div class="download__text">앱을 다운로드하세요.</div>
-                    <div class="download__btns">
-                        <img class="btns__appstore" alt="앱스토어 다운로드" src="./downloadAppStore.png" />
-                        <img class="btns__playstore" alt=" 플레이스토어 다운로드" src="./downloadPlayStore.png" />
-                    </div>
-                </div>
-            </div>
+      <div class="container__main">
+        <div class="main__phone">
+          <div class="phone__frame">
+            <div class="phone__inner-img"></div>
+          </div>
         </div>
-        <div class="container__footer">
-            <div class="footer__lists">
-                <div class="lists__list">소개</div>
-                <div class="lists__list">도움말</div>
-                <div class="lists__list">홍보 센터</div>
-                <div class="lists__list">API</div>
-                <div class="lists__list">채용 정보</div>
-                <div class="lists__list">개인정보처리방침</div>
-                <div class="lists__list">약관</div>
-                <div class="lists__list">위치</div>
-                <div class="lists__list">인기 계정</div>
-                <div class="lists__list">해시태그</div>
-                <div class="lists__list">언어</div>
+        <div class="main__form">
+          <div class="form__login">
+            <img class="login__title" src="./instagramLogo.png" alt="title" />
+            <div class="login__idpw">
+              <input
+                class="idpw__id"
+                type="text"
+                placeholder="전화번호, 사용자 이름 또는 이메일"
+              />
+              <input class="idpw__pw" type="password" placeholder="비밀번호" />
             </div>
-            <div class="footer__copyright">
-                <i class="xi-copyright"></i>
-                <div class="copyright__text">&nbsp;2020 Instagram From Facebook</div>
+            <div class="login__btn">
+              <button class="btn">로그인</button>
             </div>
+            <div class="login__or">
+              <div class="or__bar"></div>
+              <div class="or__text">또는</div>
+              <div class="or__bar"></div>
+            </div>
+            <div class="login__facebook-login">
+              <i class="xi-facebook-official xi-2x"></i>
+              <div class="facebook-login__text">Facebook으로 로그인</div>
+            </div>
+            <div class="login__forgot">
+              비밀번호를 잊으셨나요?
+            </div>
+          </div>
+          <div class="form__no-account">
+            <span class="no-account__gray">계정이 없으신가요?</span>
+            <span class="no-account__blue">가입하기</span>
+          </div>
+          <div class="form__download">
+            <div class="download__text">앱을 다운로드하세요.</div>
+            <div class="download__btns">
+              <img
+                class="btns__appstore"
+                alt="앱스토어 다운로드"
+                src="./downloadAppStore.png"
+              />
+              <img
+                class="btns__playstore"
+                alt=" 플레이스토어 다운로드"
+                src="./downloadPlayStore.png"
+              />
+            </div>
+          </div>
         </div>
+      </div>
+      <div class="container__footer">
+        <div class="footer__lists">
+          <div class="lists__list">소개</div>
+          <div class="lists__list">도움말</div>
+          <div class="lists__list">홍보 센터</div>
+          <div class="lists__list">API</div>
+          <div class="lists__list">채용 정보</div>
+          <div class="lists__list">개인정보처리방침</div>
+          <div class="lists__list">약관</div>
+          <div class="lists__list">위치</div>
+          <div class="lists__list">인기 계정</div>
+          <div class="lists__list">해시태그</div>
+          <div class="lists__list">언어</div>
+        </div>
+        <div class="footer__copyright">
+          <i class="xi-copyright"></i>
+          <div class="copyright__text">&nbsp;2020 Instagram From Facebook</div>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
