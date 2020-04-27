@@ -8,6 +8,7 @@
 }
 
 .form__login {
+  width: 350px;
   border: 1px solid #cacaca;
   border-radius: 3px;
   padding: 25px 50px;
@@ -94,10 +95,11 @@
 }
 
 .form__no-account {
+  width: 350px;
   border: 1px solid #cacaca;
   border-radius: 3px;
   background-color: white;
-  padding: 20px 92px;
+  padding: 20px 50px;
   margin-bottom: 20px;
 }
 
