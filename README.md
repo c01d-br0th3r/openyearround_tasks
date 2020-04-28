@@ -6,7 +6,7 @@
 * 인스타그램 로그인 페이지 클론
 
 ##### 완성!
-![Week1_Instagram_clone](https://user-images.githubusercontent.com/60615552/80404111-a8e57400-88fb-11ea-9dc8-59b8070150cc.jpg)
+![Week1_Instagram_Clone](https://user-images.githubusercontent.com/60615552/80449240-86824380-8959-11ea-9e7d-010a718606a7.jpg)
 
 ###### 추가할 것
 * 미디어쿼리
