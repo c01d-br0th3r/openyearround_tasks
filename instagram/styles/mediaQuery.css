@@ -1,0 +1,36 @@
+@media screen and (max-width: 900px) {
+  .main__phone {
+    display: none;
+  }
+  .main__form {
+    margin-left: 0;
+  }
+  .footer__lists {
+    flex-direction: column;
+  }
+  .lists__forMediaQuery {
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  .lists__forMediaQueryTwo {
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer__copyright {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: -10px;
+  }
+  .container__footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+}

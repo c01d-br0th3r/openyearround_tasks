@@ -4,6 +4,14 @@
   font-weight: 600;
 }
 
+.lists__forMediaQuery {
+  display: flex;
+}
+
+.lists__forMediaQueryTwo {
+  display: flex;
+}
+
 .lists__list {
   margin-right: 15px;
 }
