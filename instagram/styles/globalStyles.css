@@ -6,6 +6,11 @@
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+a {
+  all: unset;
+  cursor: pointer;
+}
+
 .container {
   width: 100vw;
   height: 100vh;
