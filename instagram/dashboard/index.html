@@ -9,6 +9,10 @@
       integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css"
+    />
     <link rel="stylesheet" href="./styles/header.css" />
     <link rel="stylesheet" href="./styles//container.css" />
     <link rel="stylesheet" href="./styles/ariticle.css" />
@@ -18,9 +22,19 @@
   </head>
   <body>
     <div class="header">
-      <div class="header__logo">Instagram</div>
-      <div class="header__search">검색</div>
-      <div class="header__icons">아이콘</div>
+      <img src="../images/instagramLogo.png" class="header__logo" />
+      <input
+        type="text"
+        class="header__search"
+        placeholder="&rArr;&nbsp;검색"
+      />
+      <div class="header__icons">
+        <i class="fas fa-home"></i>
+        <i class="far fa-paper-plane"></i>
+        <i class="far fa-compass"></i>
+        <i class="far fa-heart"></i>
+        <i class="fas fa-user-circle"></i>
+      </div>
     </div>
     <div class="container">
       <div class="container__article">
@@ -46,7 +60,7 @@
       <div class="modal__tags">공유하기</div>
       <div class="modal__tags">링크 복사</div>
       <div class="modal__tags">퍼가기</div>
-      <div class="modal__tags">취소</div>
+      <div class="modal__tags last-icon">취소</div>
     </div>
     <script src="scripts/index.js"></script>
   </body>
