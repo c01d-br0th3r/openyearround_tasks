@@ -1,0 +1,11 @@
+.article__user {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.user__imgId {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
