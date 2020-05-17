@@ -54,6 +54,7 @@
   border: 1px solid #c0dffd;
   border-radius: 3px;
   line-height: 33px;
+  cursor: pointer;
 }
 
 .login__or {

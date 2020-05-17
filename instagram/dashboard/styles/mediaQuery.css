@@ -1,5 +1,12 @@
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 980px) {
+  .container {
+    width: 100vw;
+    align-items: center;
+  }
   .container__recommend {
     display: none;
+  }
+  .header {
+    justify-content: space-around;
   }
 }

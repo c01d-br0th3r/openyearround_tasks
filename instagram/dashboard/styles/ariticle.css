@@ -66,11 +66,12 @@
   padding: 10px 20px;
   width: 100%;
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 
 .comments__inputComments {
-  width: 540px;
+  width: 530px;
   padding: 10px 0;
   border: none;
   font-size: 14px;
