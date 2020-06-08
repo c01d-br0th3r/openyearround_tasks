@@ -43,8 +43,9 @@
 
 ### Week 4: Node.js
 
-<img width="539" alt="스크린샷 2020-06-09 오전 2 53 25" src="https://user-images.githubusercontent.com/60615552/84063792-93845f00-a9fc-11ea-926a-012bd482b133.png">
-
 * 라우팅
+
+##### server.js
+<img width="539" alt="스크린샷 2020-06-09 오전 2 53 25" src="https://user-images.githubusercontent.com/60615552/84063792-93845f00-a9fc-11ea-926a-012bd482b133.png">
 
 
